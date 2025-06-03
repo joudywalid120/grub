@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Egyptian Granny's Recipes</title>
+  <meta charset="UTF-8">
+  <!-- Forgot this initially then added after my phone showed it zoomed weird -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    /* CSS written during 3am hunger pangs */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f1e7; /* That stale yogurt color */
+      margin: 0;
+      color: #333;
+      line-height: 1.5;
+    }
+    
+    .header {
+      background: #4a7c59; /* Color of old garden trees */
+      padding: 15px 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .header h1 {
+      margin: 0;
+      color: white;
+      font-size: 28px;
+      text-shadow: 1px 1px 3px black;
+    }
+    
+    /* Recipe cards - redesigned 3 times */
+    .recipe-card {
+      background: white;
+      border-radius: 8px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 350px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: all 0.3s;
+    }
+    
+    .recipe-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .recipe-img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-bottom: 4px solid #e67e22; /* Lentil soup color */
+    }
+    
+    .recipe-content {
+      padding: 15px;
+    }
+    
+    .recipe-title {
+      color: #4a7c59;
+      margin-top: 0;
+      border-bottom: 1px dashed #ccc;
+      padding-bottom: 10px;
+    }
+    
+    .footer {
+      background: #4a7c59;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    
+    /* Mobile fix after my cousin complained */
+    @media (max-width: 600px) {
+      .recipe-card {
+        width: 95%;
+      }
+      
+      .recipe-img {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>My Egyptian Granny's Poor Student Recipes</h1>
+  </div>
+
+  <main style="padding: 20px;">
+    
+    <div style="text-align: center; margin-bottom: 30px;">
+      <h2 style="color: #4a7c59;">Cairo Comfort Food for Empty Wallets</h2>
+      <p>Recipes tested in dorm kitchens with questionable hygiene</p>
+    </div>
+    
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+      
+      <!-- Foul Recipe -->
+      <div class="recipe-card">
+<img src="https://i.pinimg.com/736x/27/e6/7d/27e67db29342ec6d2452252cefab0991.jpg" alt="Pinterest Image" width="300">
+        <div class="recipe-content">
+          <h3 class="recipe-title">Microwave Foul Medames</h3>
+          <p>The breakfast of broke champions</p>
+          <a href="#foul" style="display: block; background: #e67e22; color: white; text-align: center; padding: 8px; border-radius: 5px; text-decoration: none; margin-top: 15px;">See Recipe</a>
+        </div>
+      </div>
+      
+      <!-- Potato Eggs -->
+      <div class="recipe-card">
+<img src="https://i.pinimg.com/736x/5e/d8/97/5ed897e2f2a7d90dbd44e632d5a204a5.jpg" alt="Pinterest Image" width="300">
+        <div class="recipe-content">
+          <h3 class="recipe-title">Stinky Potato Eggs</h3>
+          <p>For when you want to keep roommates away</p>
+          <a href="#potato" style="display: block; background: #e67e22; color: white; text-align: center; padding: 8px; border-radius: 5px; text-decoration: none; margin-top: 15px;">See Recipe</a>
+        </div>
+      </div>
+      
+      <!-- Koshari -->
+      <div class="recipe-card">
+<img src="https://i.pinimg.com/736x/e5/d7/95/e5d7954c5f110f3bf23e143fddc53859.jpg" alt="Pinterest Image" width="300">
+" alt="Pinterest Image" width="300">
+        <div class="recipe-content">
+          <h3 class="recipe-title">Poor Man's Koshari</h3>
+          <p>When you miss home but your wallet doesn't</p>
+          <a href="#koshary" style="display: block; background: #e67e22; color: white; text-align: center; padding: 8px; border-radius: 5px; text-decoration: none; margin-top: 15px;">See Recipe</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Foul Recipe Details -->
+    <div id="foul" class="recipe-card" style="max-width: 800px; margin: 40px auto;">
+      <div class="recipe-content">
+        <h2 class="recipe-title">Microwave Foul Medames</h2>
+        
+        <h3 style="color: #e67e22;">Ingredients:</h3>
+        <ul>
+          <li>1 can of fava beans (the cheap 5 EGP kind)</li>
+          <li>1/2 lemon (or whole if you're feeling brave)</li>
+          <li>1 garlic clove (or 3 if you want no friends)</li>
+          <li>Cumin (the magic dust)</li>
+          <li>Olive oil (if you're fancy)</li>
+          <li>Salt (to taste, aka until you stop crying)</li>
+        </ul>
+        
+        <h3 style="color: #e67e22;">How I Do It:</h3>
+        <ol>
+          <li>Open can without cutting yourself (hardest step)</li>
+          <li>Dump beans with juice into microwave-safe bowl</li>
+          <li>Nuke for 2 minutes (stand back - it splatters!)</li>
+          <li>Mash roughly with fork (lumps add character)</li>
+          <li>Add lemon juice, crushed garlic, cumin, salt</li>
+          <li>Drown in oil like it's your ex's heart</li>
+          <li>Eat with stale bread or straight from bowl</li>
+        </ol>
+        
+        <div style="background: #f9f2e7; padding: 10px; margin-top: 20px; border-left: 3px solid #e67e22;">
+          <p><strong>Pro Tip:</strong> Add chopped tomatoes if you have extra 3 EGP. Tastes better when eaten at 3am while contemplating life choices.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Potato Eggs Recipe -->
+    <div id="potato" class="recipe-card" style="max-width: 800px; margin: 40px auto;">
+      <div class="recipe-content">
+        <h2 class="recipe-title">Stinky Potato Eggs</h2>
+        
+        <h3 style="color: #e67e22;">Ingredients:</h3>
+        <ul>
+          <li>2 potatoes (the sad ones from your fridge)</li>
+          <li>2 eggs (if you can afford them)</li>
+          <li>1 onion (the bigger the better)</li>
+          <li>3 garlic cloves (for lasting aroma)</li>
+          <li>Salt & pepper (to pretend you're a chef)</li>
+          <li>Oil (not too much, we're not rich)</li>
+        </ul>
+        
+        <h3 style="color: #e67e22;">How I Do It:</h3>
+        <ol>
+          <li>Peel potatoes (or don't, I'm not your mom)</li>
+          <li>Cut into small cubes (smaller = cooks faster)</li>
+          <li>Heat oil in pan (medium heat unless you like smoke)</li>
+          <li>Fry potatoes until kinda golden (patience is for restaurants)</li>
+          <li>Add chopped onion and garlic (the stinkier the better)</li>
+          <li>Crack eggs directly into the mess</li>
+          <li>Scramble everything together like your life</li>
+          <li>Eat with bread (or your hands, no judgment)</li>
+        </ol>
+        
+        <div style="background: #f9f2e7; padding: 10px; margin-top: 20px; border-left: 3px solid #e67e22;">
+          <p><strong>Granny's Wisdom:</strong> Add chili flakes if you want to feel something. Tastes best when eaten straight from the pan.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Koshari Recipe -->
+    <div id="koshary" class="recipe-card" style="max-width: 800px; margin: 40px auto;">
+      <div class="recipe-content">
+        <h2 class="recipe-title">Poor Man's Koshari</h2>
+        
+        <h3 style="color: #e67e22;">Ingredients:</h3>
+        <ul>
+          <li>1 cup rice (the cheapest kind)</li>
+          <li>1/2 cup yellow lentils (or whatever color you find)</li>
+          <li>1 cup pasta (any shape, it all ends up mush)</li>
+          <li>2 large onions (for crying and eating)</li>
+          <li>3 garlic cloves (minimum)</li>
+          <li>Tomatoes (canned or fresh, we're not picky)</li>
+          <li>Vinegar & chili sauce (for the brave)</li>
+          <li>Oil (for frying and regretting)</li>
+        </ul>
+        
+        <h3 style="color: #e67e22;">How I Do It:</h3>
+        <ol>
+          <li>Cook lentils until mushy (about 20 mins of boredom)</li>
+          <li>Cook rice and pasta separately (or together if you're lazy)</li>
+          <li>Slice onions and fry until crispy (this is the actual hard part)</li>
+          <li>Make tomato sauce: cook tomatoes with crushed garlic</li>
+          <li>Mix rice, lentils and pasta in big bowl (the chaos begins)</li>
+          <li>Top with tomato sauce and crispy onions</li>
+          <li>Drown in vinegar and chili sauce (like your sorrows)</li>
+          <li>Eat until you can't move (then eat some more)</li>
+        </ol>
+        
+        <div style="background: #f9f2e7; padding: 10px; margin-top: 20px; border-left: 3px solid #e67e22;">
+          <p><strong>Street Vendor Secret:</strong> If missing ingredients, use what you have and call it "fusion koshari". Tastes best when shared with friends who'll help with dishes.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer">
+    <p>© 2023 Broke Student Kitchen | All recipes tested on questionable dorm appliances</p>
+    <p style="font-size: 12px;">Made with love and too much garlic</p>
+  </div>
+
+  <!-- Scripts I copied from StackOverflow then messed with -->
+  <script>
+    // Smooth scroll thingy I added last minute
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    // Console message for my ego
+    console.log('If this works, I deserve koshari');
+  </script>
+</body>
+</html>
